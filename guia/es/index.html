@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Alfabetización en IA en EE. UU. — qué está haciendo el gobierno</title>
+<meta content="Relevamiento de sep/2026: decretos, fondos, marco de competencias y programas de EE. UU. para la alfabetización en IA en las escuelas, el trabajo y las pequeñas empresas, con novedades de 2026, lectura crítica, lecciones para Brasil y un anexo de cursos gratuitos de universidades y empresas." name="description"/>
+<meta content="Alfabetización en IA en EE. UU. — qué está haciendo el gobierno" property="og:title"/>
+<meta content="Decretos, fondos, marco de competencias y programas de EE. UU. para la alfabetización en IA, con lectura crítica y lecciones para Brasil." property="og:description"/>
+<meta content="article" property="og:type"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#E2A23B; --amb2:#f0c070; --sky:#38bdf8; --red:#f87171; --grn:#4ade80;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#b9791d; --amb2:#a16207; --sky:#0369a1; --red:#b91c1c; --grn:#15803d;
+    color-scheme:light;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.2;margin:0}
+  a{color:var(--amb);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 16px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:color-mix(in srgb,var(--bg) 80%,transparent);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:16px;height:56px}
+  nav .brand{font-family:Sora;font-weight:800;color:var(--amb);white-space:nowrap}
+  nav .links{display:flex;gap:16px;margin-left:auto;font-size:.88rem;overflow-x:auto}
+  nav .links a{color:var(--mut);white-space:nowrap} nav .links a:hover{color:var(--txt);text-decoration:none}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.85rem;font-family:Sora;white-space:nowrap}
+  #tema{background:none;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:4px 9px;cursor:pointer}
+  @media(max-width:760px){nav .links{display:none}}
+  .hero{padding:64px 0 36px;position:relative;overflow:hidden}
+  .hero h1{font-size:clamp(2rem,5vw,3.1rem);font-weight:800;letter-spacing:-.02em;margin:12px 0 16px}
+  .hero h1 span{color:var(--amb)}
+  .hero p.lead{font-size:1.15rem;color:var(--mut);max-width:720px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:30px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+  .kpi b{display:block;font-family:Sora;font-size:1.6rem;color:var(--amb)}
+  .kpi span{font-size:.88rem;color:var(--mut)}
+  section{padding:40px 0;border-top:1px solid var(--line)}
+  section h2{font-size:1.7rem;margin:8px 0 18px}
+  section h3{font-size:1.1rem;margin:22px 0 8px}
+  .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:14px 0}
+  .box.destaque{border-color:var(--amb);background:color-mix(in srgb,var(--amb) 8%,var(--card))}
+  .tl{list-style:none;padding:0;margin:0;border-left:2px solid var(--line)}
+  .tl li{position:relative;padding:0 0 16px 20px}
+  .tl li::before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--amb)}
+  .tl .d{font-family:Sora;font-weight:600;color:var(--amb);font-size:.9rem}
+  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+  .grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .card h3{margin-top:0}
+  .num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--amb);color:#111;font-weight:700;font-size:.85rem;margin-right:8px;font-family:Sora}
+  ul.lst{padding-left:20px;margin:8px 0} ul.lst li{margin:4px 0}
+  .tag{display:inline-block;font-size:.72rem;padding:2px 8px;border-radius:99px;border:1px solid var(--line);color:var(--mut);margin-left:6px;vertical-align:middle}
+  .crit li::marker{color:var(--red)}
+  .lic li::marker{color:var(--grn)}
+  .fontes{font-size:.88rem;columns:2 300px;column-gap:30px}
+  .fontes li{break-inside:avoid;margin:4px 0}
+  .filtros{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 18px}
+  .filtros button{background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:99px;padding:6px 14px;cursor:pointer;font:500 .85rem Inter,sans-serif}
+  .filtros button.on{background:var(--amb);border-color:var(--amb);color:#111}
+  .curso{display:flex;flex-direction:column;gap:6px}
+  .curso h3{font-size:1rem;margin:0}
+  .curso .quem{font-size:.85rem;color:var(--mut)}
+  .curso p{margin:0;font-size:.9rem}
+  .bd{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px}
+  .b{font-size:.72rem;padding:2px 8px;border-radius:99px;border:1px solid var(--line);color:var(--mut)}
+  .b.ok{border-color:var(--grn);color:var(--grn)}
+  .b.pt{border-color:var(--sky);color:var(--sky)}
+  .b.warn{border-color:var(--amb);color:var(--amb)}
+  #nres{font-size:.88rem}
+  footer{padding:40px 0;text-align:center;color:var(--mut);font-size:.9rem;border-top:1px solid var(--line)}
+</style>
+<link href="https://inematds.github.io/letramento-ia-eua/guia/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/letramento-ia-eua/guia/en/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/letramento-ia-eua/guia/es/" hreflang="es" rel="alternate"/></head>
+<body><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../en/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="./" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">ES</a></div>
+<nav>
+<div class="wrap">
+<span class="brand">🇺🇸 Alfabetización en IA</span>
+<div class="links">
+<a href="#linha">Línea de tiempo</a>
+<a href="#frentes">Frentes</a>
+<a href="#referencial">Marco de referencia</a>
+<a href="#novidades">2026</a>
+<a href="#critica">Crítica</a>
+<a href="#brasil">Lecciones</a>
+<a href="#anexo">Cursos gratis</a>
+<a href="#fontes">Fuentes</a>
+</div>
+<a class="inema" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<button aria-label="Cambiar tema" id="tema">◐</button>
+</div>
+</nav>
+<header class="hero">
+<div class="wrap">
+<span class="chip">Relevamiento · septiembre de 2026</span>
+<h1>Qué están haciendo los EE. UU. en <span>alfabetización en IA</span></h1>
+<p class="lead">Mucha gente habla de la alfabetización en IA como una previsión para los próximos años. En Estados Unidos, ya se convirtió en política pública: hay un decreto presidencial, fondos, un marco oficial de competencias y programas en marcha en las escuelas, el trabajo y las pequeñas empresas.</p>
+<div class="kpis">
+<div class="kpi"><b>2</b><span>decretos presidenciales (abr/2025)</span></div>
+<div class="kpi"><b>60+</b><span>organizaciones comprometidas con la educación</span></div>
+<div class="kpi"><b>5</b><span>áreas del marco oficial de competencias</span></div>
+<div class="kpi"><b>20 mil+</b><span>estudiantes en el desafío nacional de 2026</span></div>
+<div class="kpi"><b>56</b><span>centros estatales previstos</span></div>
+<div class="kpi"><b>hasta US$ 224 mi</b><span>para estos centros</span></div>
+</div>
+</div>
+</header>
+<main>
+<section id="linha">
+<div class="wrap">
+<span class="chip">1 · Línea de tiempo</span>
+<h2>En poco más de un año, toda una política</h2>
+<ul class="tl">
+<li><div class="d">abr/2025</div><b>Decreto sobre educación en IA para jóvenes.</b> Crea un grupo de trabajo en la Casa Blanca, un desafío nacional de IA para estudiantes y alianzas con empresas para la educación básica. Un segundo decreto, sobre profesiones técnicas, fija la meta de <b>1 millón de aprendices</b>.</li>
+<li><div class="d">jun/2025</div><b>Compromiso con la juventud.</b> Más de 60 organizaciones, entre ellas Google, Microsoft, OpenAI, Amazon, Apple y Meta, se comprometen a invertir en educación en IA. Ese mismo mes, cerca de <b>US$ 84 millones</b> van a los estados para ampliar los programas de aprendizaje.</li>
+<li><div class="d">jul/2025</div><b>Academia de IA para docentes.</b> El sindicato docente AFT crea, junto con Microsoft, OpenAI y Anthropic, una academia nacional de formación en IA (US$ 23 millones).</li>
+<li><div class="d">jul/2025</div><b>Plan de Acción de IA.</b> Establece la capacitación de la fuerza laboral como condición para los pilares de innovación, infraestructura y liderazgo.</li>
+<li><div class="d">ago/2025</div><b>Reglas del desafío nacional publicadas</b>, y orientación del Departamento de Trabajo: los fondos públicos para la reinserción laboral pueden pagar cursos de alfabetización en IA.</li>
+<li><div class="d">sep/2025</div><b>Anthropic se adhiere al compromiso</b>, con US$ 1 millón para educación en ciberseguridad y cursos abiertos de «fluidez en IA».</li>
+<li><div class="d">ene/2026</div><b>Pequeñas empresas en el Congreso.</b> La Cámara aprueba un proyecto que obliga al organismo federal de apoyo a las pequeñas empresas (SBA) a capacitarlas en IA. Falta el Senado. Microsoft lanza una credencial gratuita de IA para docentes.</li>
+<li><div class="d">ene a jun/2026</div><b>El desafío se lleva a cabo.</b> Inscripciones hasta el 20/jan, campeones estatales en marzo, regionales en abril y <b>ceremonia nacional en la Casa Blanca el 9 de junio</b>, con <b>más de 20 mil estudiantes</b> participantes.</li>
+<li><div class="d">13/feb/2026</div><b>Marco de Alfabetización en IA</b> del Departamento de Trabajo: 5 áreas de contenido y 7 principios de enseñanza. Es voluntario, no obligatorio.</li>
+<li><div class="d">mar/abr 2026</div><b>Programa "AI-Ready America"</b> de la NSF, la agencia federal de ciencia, en colaboración con los departamentos de Trabajo y Agricultura y con el organismo de apoyo a pequeñas empresas: un centro de coordinación por estado y territorio.</li>
+<li><div class="d">13/abr/2026</div><b>Prioridad de IA en el presupuesto educativo.</b> El Departamento de Educación empieza a priorizar, en sus convocatorias, proyectos de formación docente, contacto de los estudiantes con la IA y certificaciones. Está vigente desde el 13 de mayo.</li>
+<li><div class="d">may a ago/2026</div><b>Proyecto de ley federal</b> para liberar fondos de la educación básica para el currículo de IA (Cámara en mayo, Senado en agosto). En junio, el Departamento de Trabajo abre fondos de reinserción laboral para quienes pierden su empleo por la IA.</li>
+<li><div class="d">jul/2026 →</div><b>Primera ronda de los centros</b> (10 sedes, propuestas hasta el 16/jul/2026; la selección aún no se ha anunciado al 28/09). Después, 20 en ene/2027 y 26 en jul/2027.</li>
+</ul>
+</div>
+</section>
+<section id="frentes">
+<div class="wrap">
+<span class="chip">2 · Los tres frentes</span>
+<h2>Escuela, trabajo y pequeña empresa</h2>
+<div class="grid3">
+<div class="card">
+<h3>🏫 Escuelas</h3>
+<ul class="lst">
+<li><b>Desafío nacional de IA</b> para la educación primaria y secundaria y para docentes. Los estudiantes proponen o construyen una solución con IA para un problema de su propia comunidad. Tiene etapas estatal, regional y nacional.</li>
+<li><b>Formación docente a cargo de las empresas:</b> plan de estudios abierto de Anthropic (Creative Commons), US$ 150 mi de Google, 10 mil educadores por parte de Amazon hasta 2028 y más de US$ 20 mi de Meta.</li>
+<li><b>Convocatorias de educación</b> empiezan a dar preferencia a proyectos con IA.</li>
+</ul>
+</div>
+<div class="card">
+<h3>👷 Trabajadores</h3>
+<ul class="lst">
+<li><b>Marco de referencia oficial</b> de alfabetización en IA, detallado a continuación.</li>
+<li><b>Fondos para la reinserción laboral</b> puede pagar cursos de IA para desempleados y trabajadores desplazados.</li>
+<li><b>Aprendizaje profesional:</b> meta de 1 millón de aprendices, con dinero distribuido a todos los estados.</li>
+</ul>
+</div>
+<div class="card">
+<h3>🏪 Pequeñas empresas y comunidades</h3>
+<ul class="lst">
+<li><b>AI-Ready America:</b> alfabetización y habilidades prácticas, asistencia técnica para que pequeñas empresas y municipalidades adopten la IA, y pasantías y proyectos reales.</li>
+<li><b>Un centro por estado:</b> US$ 1 mi por año durante 3 años (más un año posible), 56 centros en total.</li>
+<li>Incluye la <b>extensión rural</b>, lo que lleva la alfabetización en IA al campo.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="referencial">
+<div class="wrap">
+<span class="chip">3 · El marco de competencias</span>
+<h2>Qué cuenta como «saber usar IA»</h2>
+<p class="mut">El marco de referencia del Departamento de Trabajo (feb/2026) es el documento más útil de todo el paquete: indica qué enseñar y cómo hacerlo. El enfoque está en la IA generativa.</p>
+<div class="grid2">
+<div class="box">
+<h3 style="margin-top:0">5 áreas de contenido</h3>
+<p><span class="num">1</span>Entender cómo funciona la IA</p>
+<p><span class="num">2</span>Explorar los usos de la IA</p>
+<p><span class="num">3</span>Dirigir la IA con eficacia (saber pedir)</p>
+<p><span class="num">4</span><b>Evaluar las respuestas de la IA</b>: verificar los hechos, comprobar si falta algo, detectar fallas de lógica</p>
+<p><span class="num">5</span><b>Usar la IA de manera responsable</b>: seguridad y datos</p>
+</div>
+<div class="box">
+<h3 style="margin-top:0">7 principios de enseñanza</h3>
+<ul class="lst">
+<li><b>Aprender haciendo</b>, con tareas reales, comparando respuestas y mejorando en cada intento</li>
+<li>Desarrollar <b>habilidades humanas complementarias</b>: criterio, comunicación y resolución de problemas</li>
+<li><b>Enseñar en el contexto de la profesión</b></li>
+<li>Crear caminos para <b>seguir aprendiendo</b></li>
+<li>Diseñar para <b>cambiar rápido</b>, porque las herramientas cambian</li>
+<li>Cuidar de los <b>requisitos previos</b> (acceso, nociones digitales básicas)</li>
+<li>Preparar a quienes <b>enseña y apoya</b></li>
+</ul>
+</div>
+</div>
+<div class="box destaque"><b>La frase que lo resume:</b> la IA debe ayudar al trabajador, <b>no reemplazar la responsabilidad</b> de él por el resultado.</div>
+</div>
+</section>
+<section id="novidades">
+<div class="wrap">
+<span class="chip">4 · Novedades de 2026</span>
+<h2>Qué cambió este año</h2>
+<div class="grid2">
+<div class="card">
+<h3>🏆 El desafío en cifras</h3>
+<ul class="lst">
+<li><b>Más de 20 mil estudiantes</b> de los 50 estados, la capital, Puerto Rico y 49 escuelas militares en el extranjero.</li>
+<li>Proyectos premiados: ayuda con las tareas, prevención del acoso escolar, apoyo a personas con discapacidad visual. Los docentes premiados enseñan IA dentro de las materias que ya imparten.</li>
+<li>La ceremonia tuvo lugar <b>en medio de una reacción creciente</b> contra las pantallas y la IA en las escuelas.</li>
+</ul>
+</div>
+<div class="card">
+<h3>🗺️ Los estados</h3>
+<ul class="lst">
+<li><b>77 proyectos de ley en 27 estados</b> sobre IA en el aula recién en 2026.</li>
+<li>Ejemplos: Maryland (política de IA en cada red y alfabetización en IA), Idaho (estándares de alfabetización, formación docente, la IA no reemplaza al docente), Oklahoma (IA solo con supervisión docente).</li>
+<li>California ya ordena incluir alfabetización en IA en los planes de estudio de matemáticas, ciencias e historia.</li>
+</ul>
+</div>
+<div class="card">
+<h3>🏛️ Congreso y gobierno</h3>
+<ul class="lst">
+<li><b>Ninguna ley federal</b> de alfabetización en IA aprobado hasta septiembre de 2026. Hay proyectos para la escuela y para la pequeña empresa, estos últimos ya aprobados en la Cámara.</li>
+<li>Nuevos fondos del Departamento de Trabajo para reubicar a trabajadores afectados por la IA (jun/2026).</li>
+<li>El gobierno capacita a sus propios funcionarios: curso oficial de IA de 2026 y formación con Stanford y Princeton.</li>
+</ul>
+</div>
+<div class="card">
+<h3>📊 Lo que muestran las investigaciones</h3>
+<ul class="lst">
+<li><b>6 de cada 10 docentes</b> usaron IA durante el año escolar 2024-25; <b>3 de cada 10</b> usan cada semana y ahorran cerca de <b>6 horas por semana</b> (Gallup, jun/2025).</li>
+<li><b>26% de los adolescentes</b> usan ChatGPT para las tareas escolares, el doble que en 2023 (Pew, ene/2025).</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="critica">
+<div class="wrap">
+<span class="chip">5 · Lectura crítica</span>
+<h2>Qué funciona y qué preocupa</h2>
+<div class="grid2">
+<div class="card">
+<h3>✅ Lo que es real</h3>
+<ul class="lst lic">
+<li>Hay decreto, fondos, plazos y un marco de referencia publicado.</li>
+<li>El desafío nacional se realizó efectivamente, con la final en junio de 2026.</li>
+<li>El marco de referencia es bueno: práctico, vinculado a la profesión y con énfasis en evaluar las respuestas.</li>
+<li>El enfoque en las pequeñas empresas y el campo llega a quienes normalmente quedan fuera.</li>
+</ul>
+</div>
+<div class="card">
+<h3>⚠️ Lo que preocupa</h3>
+<ul class="lst crit">
+<li><b>Un mosaico:</b> los programas están dispersos y los resultados dependen de que cada estado actúe.</li>
+<li><b>Fondos limitados</b> para el tamaño del país. US$ 1 mi por año por estado es poco.</li>
+<li><b>Las grandes tecnológicas marcan el rumbo:</b> las empresas capacitan a los docentes con sus propias herramientas. ¿Quién decide cómo entra la IA en el aula?</li>
+<li><b>Pocas salvaguardas</b> de privacidad y de evaluación de resultados en las convocatorias.</li>
+<li>El Departamento de Educación se está vaciando, con el riesgo de perder a quienes saben llevar adelante los programas.</li>
+<li><b>Alfabetización en IA sin alfabetización digital:</b> el recorte de fondos para la inclusión digital afecta a las organizaciones locales que brindarían la base (Brookings).</li>
+<li>La motivación declarada es la <b>disputa geopolítica</b>. La alfabetización se considera parte de una carrera.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="brasil">
+<div class="wrap">
+<span class="chip">6 · Lecciones</span>
+<h2>Qué se puede aprovechar aquí</h2>
+<div class="grid2">
+<div class="card"><h3>1. Lista de verificación del curso</h3><p>Usa las 5 áreas como lista de verificación: ¿todos los cursos de IA cubren las cinco? Las áreas 4 (evaluar respuestas) y 5 (usar de manera responsable) son las que más faltan.</p></div>
+<div class="card"><h3>2. Enseñar desde la profesión</h3><p>La IA para abogados, contadores, profesionales de la salud y dueños de tiendas, cada uno con sus propios ejemplos, enseña más que una clase genérica.</p></div>
+<div class="card"><h3>3. Desafío de la comunidad</h3><p>El formato del desafío (resolver un problema real del barrio o la ciudad con IA, por etapas) funciona en una escuela, un grupo o una comunidad en línea.</p></div>
+<div class="card"><h3>4. Material abierto</h3><p>Ya existen currículos de IA con licencia abierta, que se pueden adaptar y traducir para docentes brasileños.</p></div>
+<div class="card"><h3>5. Primero, los pequeños negocios</h3><p>En EE. UU., las pequeñas empresas y los municipios tienen una línea de acción propia. En Brasil, es el público que más lo necesita y el que menos recibe.</p></div>
+<div class="card"><h3>6. Neutralidad</h3><p>Enseñar sin depender de un solo proveedor es una ventaja frente a las capacitaciones financiadas por las grandes tecnológicas.</p></div>
+</div>
+</div>
+</section>
+<section id="anexo">
+<div class="wrap">
+<span class="chip">Anexo · Cursos gratis</span>
+<h2>Qué ofrecen gratis las universidades y empresas</h2>
+<p class="mut">Selección de cursos y materiales de alfabetización en IA, con énfasis en lo gratuito. «100%» = curso completo sin costo; «auditar» = lo ves gratis y pagas el certificado; «restringido» = gratis solo para un grupo, como los docentes de EE. UU. «?» = no confirmado. Revisa el enlace antes de recomendarlo.</p>
+<div class="box destaque"><b>Las mejores opciones para Brasil hoy:</b> IBM SkillsBuild (100% gratis, certificado gratis, en portugués), AWS Skill Builder (parte en portugués), LinkedIn/Microsoft (subtítulos en portugués) y Google Cloud Skills Boost (clases en portugués). En inglés, pero con licencia abierta para adaptar: <b>AI Fluency, de Anthropic</b>.</div>
+<div class="filtros" id="filtros">
+<button class="on" data-f="todos">Todos</button>
+<button data-f="pt">En portugués</button>
+<button data-f="gratis">100% gratis</button>
+<button data-f="leigo">Adulto sin conocimientos técnicos</button>
+<button data-f="professor">Docentes</button>
+<button data-f="escola">Escuela</button>
+<button data-f="tecnico">Técnico</button>
+<button data-f="univ">Universidades y ONG</button>
+<button data-f="emp">Empresas</button>
+</div>
+<p class="mut" id="nres"></p>
+<div class="grid3" id="cursos"></div>
+<p class="mut" style="margin-top:18px">Tabla completa, con carga horaria y observaciones: <a href="https://github.com/inematds/letramento-ia-eua/blob/main/ANEXO.md" rel="noopener" target="_blank">ANEXO.md</a>.</p>
+</div>
+</section>
+<section id="fontes">
+<div class="wrap">
+<span class="chip">Fuentes</span>
+<h2>Para consultar</h2>
+<p class="mut">Relevamiento del 28/09/2026, ampliado ese mismo día con las novedades de 2026 y el anexo de cursos. Los programas y las cifras cambian rápido: consulta la fuente antes de citarlos.</p>
+<ul class="fontes">
+<li><a href="https://www.ai.gov/initiatives/education" rel="noopener" target="_blank">ai.gov — AI Education</a></li>
+<li><a href="https://www.presidency.ucsb.edu/documents/executive-order-14277-advancing-artificial-intelligence-education-for-american-youth" rel="noopener" target="_blank">Decreto 14277 (texto)</a></li>
+<li><a href="https://cset.georgetown.edu/article/promises-and-progress/" rel="noopener" target="_blank">CSET/Georgetown — Promises and Progress</a></li>
+<li><a href="https://www.whitehouse.gov/edai/" rel="noopener" target="_blank">Casa Blanca — Pledge to America's Youth</a></li>
+<li><a href="https://www.k12dive.com/news/over-60-organizations-sign-white-house-pledge-to-invest-in-ai-education/752139/" rel="noopener" target="_blank">K-12 Dive — más de 60 organizaciones en el compromiso</a></li>
+<li><a href="https://www.edtechinnovationhub.com/news/white-house-ai-pledge-backed-by-60-organizations-including-big-hitters-amazon-and-google" rel="noopener" target="_blank">EdTech Innovation Hub — compromisos de las empresas</a></li>
+<li><a href="https://www.whitehouse.gov/wp-content/uploads/2025/08/Presidential-AI-Challenge-Guidebook-for-Participation.pdf" rel="noopener" target="_blank">Reglas del desafío nacional (PDF)</a></li>
+<li><a href="https://orise.orau.gov/ai-challenge/winners/2026/national.html" rel="noopener" target="_blank">Campeones nacionales 2026</a></li>
+<li><a href="https://www.dol.gov/newsroom/releases/eta/eta20260213" rel="noopener" target="_blank">Depto. del Trabajo — Marco de Alfabetización en IA</a></li>
+<li><a href="https://www.dol.gov/sites/dolgov/files/ETA/advisories/TEN/2025/TEN%2007-25/TEN%2007-25%20(complete%20document).pdf" rel="noopener" target="_blank">Marco de referencia completo (PDF)</a></li>
+<li><a href="https://www.dol.gov/newsroom/releases/osec/osec20250826" rel="noopener" target="_blank">Depto. del Trabajo — fondos para la reinserción laboral por la IA</a></li>
+<li><a href="https://www.congress.gov/crs-product/IN12715" rel="noopener" target="_blank">Congreso (CRS) — IA en los programas de trabajo</a></li>
+<li><a href="https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america" rel="noopener" target="_blank">NSF — AI-Ready America</a></li>
+<li><a href="https://www.dol.gov/newsroom/releases/osec/osec20260402" rel="noopener" target="_blank">Depto. del Trabajo + NSF — alianza</a></li>
+<li><a href="https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508/solicitation" rel="noopener" target="_blank">NSF 26-508 — convocatoria de los centros</a></li>
+<li><a href="https://www.federalregister.gov/documents/2026/04/13/2026-07087/final-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-advancing" rel="noopener" target="_blank">Federal Register — prioridad de la IA en la educación</a></li>
+<li><a href="https://casrai.org/guides/education-department-ai-grant-priority" rel="noopener" target="_blank">CASRAI — fondos sin salvaguardas</a></li>
+<li><a href="https://www.closeup.org/big-tech-goes-to-school-who-decides-how-ai-enters-the-classroom/" rel="noopener" target="_blank">Close Up — Big Tech goes to school</a></li>
+<li><a href="https://anthropic.skilljar.com/ai-fluency-for-educators" rel="noopener" target="_blank">Anthropic — AI Fluency for Educators</a></li>
+<li><a href="https://www.edweek.org/technology/white-house-honors-ai-challenge-winners-as-tech-backlash-grows/2026/06" rel="noopener" target="_blank">EdWeek — premiación del desafío y reacción contra la tecnología (jun/2026)</a></li>
+<li><a href="https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education" rel="noopener" target="_blank">Anthropic — adhesión al compromiso (sep/2025)</a></li>
+<li><a href="https://news.microsoft.com/source/2025/07/08/aft-to-launch-national-academy-for-ai-instruction-with-microsoft-openai-anthropic-and-united-federation-of-teachers" rel="noopener" target="_blank">AFT — academia de IA para docentes</a></li>
+<li><a href="https://news.microsoft.com/source/2026/01/15/microsoft-expands-its-commitment-to-education-with-elevate-for-educators-program-and-new-ai-powered-tools/" rel="noopener" target="_blank">Microsoft — Elevate for Educators (jan/2026)</a></li>
+<li><a href="https://www.future-ed.org/legislative-tracker-2026-state-ai-in-education-bills/" rel="noopener" target="_blank">FutureEd — proyectos estatales de 2026</a></li>
+<li><a href="https://www.multistate.us/insider/2026/4/9/how-states-are-regulating-ai-in-education-this-legislative-session" rel="noopener" target="_blank">MultiState — estados e IA en la educación</a></li>
+<li><a href="https://www.congress.gov/bill/119th-congress/house-bill/8747" rel="noopener" target="_blank">Congreso — H.R. 8747 (alfabetización en IA en la escuela)</a></li>
+<li><a href="https://www.govinfo.gov/app/details/BILLS-119s5225is" rel="noopener" target="_blank">Senado — S. 5225</a></li>
+<li><a href="https://www.pymnts.com/artificial-intelligence-2/2026/house-passes-bills-requiring-sba-to-help-small-businesses-adopt-ai/" rel="noopener" target="_blank">PYMNTS — IA para pequeñas empresas aprobada en la Cámara</a></li>
+<li><a href="https://www.everycrsreport.com/files/2026-07-20_IN12715_87f5c22bddd65273f5cad19b66455bf3388948a8.html" rel="noopener" target="_blank">CRS (jul/2026) — fondos para la reinserción laboral por causa de la IA</a></li>
+<li><a href="https://www.opm.gov/ai/2026-ai-training/" rel="noopener" target="_blank">OPM — curso de IA para funcionarios (2026)</a></li>
+<li><a href="https://news.gallup.com/poll/691967/three-teachers-weekly-saving-six-weeks-year.aspx" rel="noopener" target="_blank">Gallup — docentes e IA (jun/2025)</a></li>
+<li><a href="https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/" rel="noopener" target="_blank">Pew — adolescentes y ChatGPT (ene/2025)</a></li>
+<li><a href="https://www.brookings.edu/articles/why-ai-readiness-requires-digital-literacy-and-inclusion/" rel="noopener" target="_blank">Brookings — la IA exige alfabetización digital</a></li>
+</ul>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap">
+<p>Relevamiento para la comunidad · <a href="https://inema.club">INEMA.CLUB</a></p>
+</div>
+</footer>
+<script>
+  (function(){
+    var b=document.body,k='tema-letramento';
+    try{ if(localStorage.getItem(k)==='light') b.classList.add('light'); }catch(e){}
+    document.getElementById('tema').addEventListener('click',function(){
+      b.classList.toggle('light');
+      try{ localStorage.setItem(k, b.classList.contains('light')?'light':'dark'); }catch(e){}
+    });
+  })();
+</script>
+<script>
+  (function(){
+    var D=[{"n": "IBM SkillsBuild — ruta de IA", "q": "IBM", "t": "emp", "p": "leigo", "g": "100%", "c": "sim", "pt": "sim", "u": "https://skillsbuild.org/pt-br/adult-learners/explore-learning/artificial-intelligence", "x": "Credenciales digitales gratuitas y sitio en portugués de Brasil."}, {"n": "AWS Skill Builder", "q": "Amazon", "t": "emp", "p": "tecnico", "g": "100%", "c": "selos", "pt": "sim", "u": "https://skillbuilder.aws/", "x": "Cientos de cursos digitales, parte en portugués. La certificación formal es de pago."}, {"n": "Career Essentials in Generative AI", "q": "Microsoft + LinkedIn", "t": "emp", "p": "leigo", "g": "100%", "c": "sim", "pt": "leg.", "u": "https://news.microsoft.com/pt-br/cursos-gratuitos-do-linkedin/", "x": "Clases en inglés con subtítulos en portugués."}, {"n": "Cloud Skills Boost / Cresça com o Google", "q": "Google", "t": "emp", "p": "leigo", "g": "100%", "c": "?", "pt": "sim", "u": "https://www.cloudskillsboost.google/", "x": "Clases de IA en portugués anunciadas para Brasil."}, {"n": "Elements of AI", "q": "Univ. de Helsinki", "t": "univ", "p": "leigo", "g": "100%", "c": "?", "pt": "?", "u": "https://www.elementsofai.com/", "x": "Introducción para no expertos, sin matemáticas. Más de 2 millones de inscritos."}, {"n": "AI Fluency: Framework & Foundations", "q": "Anthropic", "t": "emp", "p": "leigo", "g": "100%", "c": "sim", "pt": "não", "u": "https://anthropic.skilljar.com/ai-fluency-framework-foundations", "x": "Marco con licencia Creative Commons: se puede adaptar."}, {"n": "AI Fluency for Educators / Students", "q": "Anthropic", "t": "emp", "p": "professor", "g": "100%", "c": "sim", "pt": "não", "u": "https://anthropic.skilljar.com/", "x": "Versiones para docentes y para estudiantes."}, {"n": "OpenAI Academy", "q": "OpenAI", "t": "emp", "p": "leigo", "g": "100%", "c": "sim", "pt": "?", "u": "https://openai.com/academy/", "x": "Cursos cortos. La certificación formal de OpenAI es de pago."}, {"n": "Elevate for Educators", "q": "Microsoft", "t": "emp", "p": "professor", "g": "100%", "c": "sim", "pt": "?", "u": "https://news.microsoft.com/source/2026/01/15/microsoft-expands-its-commitment-to-education-with-elevate-for-educators-program-and-new-ai-powered-tools/", "x": "Credencial gratuita de IA para docentes, hecha con ISTE+ASCD (ene/2026)."}, {"n": "Microsoft Learn — IA para educadores", "q": "Microsoft", "t": "emp", "p": "professor", "g": "100%", "c": "selos", "pt": "parte", "u": "https://learn.microsoft.com/en-us/training/paths/ai-education/", "x": "Rutas modulares; plataforma multilingüe."}, {"n": "Cisco Networking Academy — Apply AI", "q": "Cisco", "t": "emp", "p": "leigo", "g": "100%", "c": "sim", "pt": "?", "u": "https://learningnetwork.cisco.com/s/blogs/a0DQO000005QwQT2A0/free-ai-courses-on-cisco-networking-academy-and-they-require-zero-coding", "x": "3 cursos de ~9 h, sin programación."}, {"n": "OCI AI Foundations", "q": "Oracle", "t": "emp", "p": "leigo", "g": "100%", "c": "sim", "pt": "?", "u": "https://learn.oracle.com/ols/learning-path/become-an-oci-ai-foundations-associate-2025/118071/147781", "x": "Hasta la certificación Associate es gratuita."}, {"n": "Trailhead — ruta de IA", "q": "Salesforce", "t": "emp", "p": "leigo", "g": "100%", "c": "selos", "pt": "?", "u": "https://trailhead.salesforce.com/en/einstein-ai-trail", "x": "Plataforma disponible en portugués."}, {"n": "Google AI Essentials", "q": "Google (Coursera)", "t": "emp", "p": "leigo", "g": "pago", "c": "auxílio", "pt": "?", "u": "https://grow.google/certificates/en_ca/ai-essentials/", "x": "Gratis con la ayuda financiera de Coursera."}, {"n": "Agents Course / LLM Course", "q": "Hugging Face", "t": "emp", "p": "tecnico", "g": "100%", "c": "sim", "pt": "não", "u": "https://huggingface.co/learn", "x": "Técnico, con certificado gratuito en el curso de agentes."}, {"n": "Kaggle Learn", "q": "Kaggle (Google)", "t": "emp", "p": "tecnico", "g": "100%", "c": "sim", "pt": "não", "u": "https://www.kaggle.com/learn", "x": "Microcursos de 3 a 5 horas."}, {"n": "Deep Learning Institute", "q": "NVIDIA", "t": "emp", "p": "tecnico", "g": "parte", "c": "às vezes", "pt": "?", "u": "https://www.nvidia.com/en-eu/training/", "x": "Pocos cursos introductorios gratis; la mayoría son de pago."}, {"n": "Short courses / AI for Everyone", "q": "DeepLearning.AI", "t": "emp", "p": "leigo", "g": "auditar", "c": "não", "pt": "?", "u": "https://www.deeplearning.ai/courses", "x": "Videos gratis; el certificado suele ser de pago."}, {"n": "ChatGPT for Teachers", "q": "OpenAI", "t": "emp", "p": "professor", "g": "restrito", "c": "—", "pt": "—", "u": "https://openai.com/global-affairs/aft/", "x": "Gratis solo para docentes verificados de EE. UU."}, {"n": "Day of AI — currículo de preescolar a secundaria", "q": "MIT RAISE", "t": "univ", "p": "escola", "g": "100%", "c": "—", "pt": "?", "u": "https://dayofai.org/news/day-of-ai-launches-nations-first-free-grade-by-grade-prek-12-ai-literacy-curriculum", "x": "Currículo grado por grado, listo para el aula."}, {"n": "Currículo de IA y Hour of AI", "q": "Code.org", "t": "univ", "p": "escola", "g": "100%", "c": "—", "pt": "?", "u": "https://code.org/en-US/artificial-intelligence", "x": "Para estudiantes sin experiencia; de 1 hora a un semestre."}, {"n": "Lecciones de alfabetización en IA (grados 6.º a 12.º)", "q": "Common Sense Media", "t": "univ", "p": "escola", "g": "100%", "c": "formação", "pt": "?", "u": "https://www.commonsense.org/education/collections/ai-literacy-lessons-for-grades-6-12", "x": "Clases de hasta 20 minutos sobre chatbots, sesgo y algoritmos."}, {"n": "AI Guidance for Schools Toolkit", "q": "TeachAI", "t": "univ", "p": "professor", "g": "100%", "c": "—", "pt": "?", "u": "https://www.teachai.org/toolkit", "x": "Plantillas de política de IA para sistemas escolares."}, {"n": "AI4K12 — 5 grandes ideas de la IA", "q": "AAAI + CSTA", "t": "univ", "p": "professor", "g": "100%", "c": "—", "pt": "?", "u": "https://ai4k12.org/", "x": "Directriz nacional, no es un curso."}, {"n": "AI Educator Series", "q": "Google + ISTE+ASCD", "t": "univ", "p": "professor", "g": "100%", "c": "selos", "pt": "?", "u": "https://ai.google/literacy/", "x": "Microformaciones cortas para docentes."}, {"n": "Khanmigo para docentes", "q": "Khan Academy", "t": "univ", "p": "professor", "g": "restrito", "c": "sim", "pt": "?", "u": "https://blog.khanacademy.org/khanmigo-for-teachers-is-free-for-all-us-teachers-thanks-to-support-from-microsoft/", "x": "Gratis para docentes de EE. UU."}, {"n": "Generative AI Prompt Literacy", "q": "Univ. de Michigan", "t": "univ", "p": "leigo", "g": "100%", "c": "?", "pt": "não", "u": "https://umflintpd.pdx.catalog.canvaslms.com/browse/ode/courses/generative-ai-prompt-literacy", "x": "Curso abierto de unas 3 horas."}, {"n": "CS50x y CS50 for Lawyers", "q": "Harvard", "t": "univ", "p": "leigo", "g": "auditar", "c": "parcial", "pt": "leg.", "u": "https://cs50.harvard.edu/x/courses/", "x": "Algunos cursos de CS50 dan certificado gratis en el propio sitio."}, {"n": "Prompt Engineering for ChatGPT", "q": "Vanderbilt", "t": "univ", "p": "leigo", "g": "auditar", "c": "não", "pt": "?", "u": "https://www.coursera.org/learn/prompt-engineering", "x": "Coursera, unas 18 horas."}, {"n": "AI Literacy for Everyone", "q": "Univ. de Michigan", "t": "univ", "p": "leigo", "g": "auditar", "c": "não", "pt": "?", "u": "https://www.coursera.org/specializations/ai-literacy-for-everyone", "x": "Especialización en Coursera."}, {"n": "AI for Business", "q": "Wharton (Penn)", "t": "univ", "p": "leigo", "g": "auditar", "c": "não", "pt": "?", "u": "https://www.coursera.org/learn/wharton-ai-fundamentals-non-data-scientists", "x": "IA para gestores, sin parte técnica."}, {"n": "Materiales abiertos CS221, CS229, CS224N", "q": "Stanford", "t": "univ", "p": "tecnico", "g": "100%", "c": "não há", "pt": "não", "u": "https://cs221.stanford.edu/", "x": "Videos, diapositivas y apuntes de las materias, sin certificado."}];
+    var PUB={"leigo": "adulto sin conocimientos técnicos", "professor": "docentes", "escola": "escuela", "tecnico": "técnico"}; var V={"pago": "de pago", "auditar": "auditar gratis", "restrito": "restringido", "parte": "parcial", "sim": "sí", "selos": "insignias", "auxílio": "con ayuda", "às vezes": "a veces", "não": "no", "formação": "formación docente", "parcial": "parcial", "não há": "no hay", "leg.": "subtítulos"}; function tv(s){return V[s]||s;}
+    var el=document.getElementById('cursos'),nr=document.getElementById('nres');
+    function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+    function temPT(d){return d.pt==='sim'||d.pt==='leg.'||d.pt==='parte';}
+    function passa(d,f){
+      if(f==='todos')return true; if(f==='pt')return temPT(d); if(f==='gratis')return d.g==='100%';
+      if(f==='univ'||f==='emp')return d.t===f; return d.p===f;
+    }
+    function badge(d){
+      var g=d.g==='100%'?'ok':'warn', b='<span class="b '+g+'">'+(d.g==='100%'?'100% gratis':esc(tv(d.g)))+'</span>';
+      b+='<span class="b">certificado: '+esc(tv(d.c))+'</span>';
+      b+='<span class="b'+(temPT(d)?' pt':'')+'">PT: '+esc(tv(d.pt))+'</span>';
+      b+='<span class="b">'+PUB[d.p]+'</span>';
+      return b;
+    }
+    function draw(f){
+      var h='',n=0;
+      D.forEach(function(d){ if(!passa(d,f))return; n++;
+        h+='<div class="card curso"><h3><a href="'+esc(d.u)+'" target="_blank" rel="noopener">'+esc(d.n)+'</a></h3><span class="quem">'+esc(d.q)+'</span><p>'+esc(d.x)+'</p><div class="bd">'+badge(d)+'</div></div>';
+      });
+      el.innerHTML=h; nr.textContent=n+' ítems';
+    }
+    document.getElementById('filtros').addEventListener('click',function(e){
+      var b=e.target.closest('button'); if(!b)return;
+      [].forEach.call(this.querySelectorAll('button'),function(x){x.classList.remove('on');});
+      b.classList.add('on'); draw(b.getAttribute('data-f'));
+    });
+    draw('todos');
+  })();
+</script>
+</body>
+</html>
