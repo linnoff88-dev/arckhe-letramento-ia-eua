@@ -25,7 +25,7 @@ Nota: pesquisa via WebSearch (sem acesso a todo site oficial em profundidade). O
 | Claude for Education | Instituições de ensino | Produto/parceria institucional (nêo é "curso" gratuito per se) | — | — | — | — | citado no pedido, nêo aprofundado nesta rodada — **verificar** |
 | Participaçêo no Pledge | — | Anthropic assinou em ago/2025 e integra a AFT National Academy for AI Instruction (com Microsoft e OpenAI) | — | — | — | — | ver seçêo Pledge acima |
 
-Destaque: Anthropic é a que mais expõe explicitamente **licença Creative Commons** no framework — bom para o INEMA adaptar/citar como inspiraçêo de currículo aberto.
+Destaque: Anthropic é a que mais expõe explicitamente **licença Creative Commons** no framework — bom para o ARCKHÉ adaptar/citar como inspiraçêo de currículo aberto.
 
 ---
 
@@ -169,7 +169,7 @@ Destaque: **IBM SkillsBuild é a oferta mais forte e clara em português entre t
 
 ## Resumo dos destaques (100% grátis + certificado grátis + com português confirmado)
 
-1. **IBM SkillsBuild** — 100% grátis, certificado/credencial digital grátis, PT-BR nativo, parcerias locais (Instituto Eldorado, CIEE). Melhor combinaçêo para o INEMA olhar como benchmark de acesso ao Brasil.
+1. **IBM SkillsBuild** — 100% grátis, certificado/credencial digital grátis, PT-BR nativo, parcerias locais (Instituto Eldorado, CIEE). Melhor combinaçêo para o ARCKHÉ olhar como benchmark de acesso ao Brasil.
 2. **AWS Skill Builder** — 100% grátis, 500+ cursos sob demanda em PT-BR, badges grátis em vários cursos (certificações formais sêo pagas).
 3. **Google Cloud Skills Boost / "Cresça com o Google" (Brasil)** — curso de IA lançado no Brasil, 600+ aulas em PT-BR, grátis; verificar se todos os módulos dêo certificado sem custo.
 4. **Microsoft/LinkedIn Learning** — "Career Essentials in Generative AI" e cursos de IA para lideranças, grátis, com legendas em PT-BR, certificado digital grátis.

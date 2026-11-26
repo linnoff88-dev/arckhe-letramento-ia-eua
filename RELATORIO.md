@@ -98,19 +98,19 @@
 
 - **É real e tem verba.** A previsêo 1 do Nate já está acontecendo. O que ainda nêo se sabe é a escala e a qualidade.
 - **É uma colcha de retalhos.** A análise do CSET/Georgetown (nov/2025) aponta sistemas de formaçêo fragmentados, pouca verba pública e dependência de os estados agirem. Também aponta o esvaziamento do Depto. de Educaçêo (funções transferidas a outros órgêos) como risco de perder conhecimento institucional.
-- **A indústria dá o rumo.** Big Tech forma os professores, com ferramentas próprias; críticos perguntam quem decide como a IA entra na sala de aula. O mesmo vale para o INEMA: conteúdo neutro de fornecedor é um diferencial.
+- **A indústria dá o rumo.** Big Tech forma os professores, com ferramentas próprias; críticos perguntam quem decide como a IA entra na sala de aula. O mesmo vale para o ARCKHÉ: conteúdo neutro de fornecedor é um diferencial.
 - **Poucas salvaguardas.** Análises da prioridade do Depto. de Educaçêo apontam financiamento sem exigências claras de proteçêo de dados e de avaliaçêo.
 - **Reaçêo contra a tecnologia na escola.** A premiaçêo do desafio aconteceu em meio a um movimento crescente contra telas e IA na sala de aula (EdWeek, jun/2026).
 - **Letramento em IA sem letramento digital.** A Brookings aponta que o corte de verbas de inclusêo digital atinge justamente as organizações locais que dariam a base para o letramento em IA.
 - **Motivaçêo geopolítica explícita.** O decreto fala em manter a "dominância global". Letramento é tratado como parte da corrida.
 
-## 4. O que o INEMA pode aproveitar
+## 4. O que o ARCKHÉ pode aproveitar
 
 1. **Usar o referencial do Depto. do Trabalho como checklist dos cursos.** Cada curso cobre as 5 áreas? As áreas 4 e 5 (avaliar respostas, usar com responsabilidade) costumam faltar e ligam direto com o projeto `agente-sob-controle`.
 2. **"Ensinar dentro do contexto da profissêo."** Confirma a linha dos `arquiteto-agentes-*` (advocacia, contábil, saúde) e do `profissoes-agentes`.
 3. **Currículo da Anthropic sob Creative Commons.** Avaliar a licença exata para adaptar ou traduzir para professores brasileiros.
-4. **Formato do Desafio Presidencial** (resolver um problema da comunidade, em trilhas) → ideia de um "Desafio INEMA" para a comunidade.
-5. **Polos para pequenas empresas** → o público INEMA 40+ leigo, dono de pequeno negócio, é exatamente o alvo da frente (c).
+4. **Formato do Desafio Presidencial** (resolver um problema da comunidade, em trilhas) → ideia de um "Desafio ARCKHÉ" para a comunidade.
+5. **Polos para pequenas empresas** → o público ARCKHÉ 40+ leigo, dono de pequeno negócio, é exatamente o alvo da frente (c).
 6. **Conteúdo possível**: vídeo ou post "o que os EUA estêo fazendo e o que o Brasil pode copiar". *Antes, levantar o lado brasileiro com fontes; o Plano Brasileiro de IA e outros programas ainda nêo foram verificados nesta pesquisa.*
 
 ## 5. Pendências
@@ -119,7 +119,7 @@
 - [x] 7 princípios: aprender fazendo, habilidades humanas complementares, contexto da profissêo, aprendizado contínuo, agilidade, pré-requisitos, preparar quem ensina.
 - [ ] Pesquisar o equivalente brasileiro (Plano Brasileiro de IA, MEC, Senai/Sebrae) com fontes.
 - [x] Polos NSF: US$ 1 mi/ano × 3 anos (+1 opcional); 10 na rodada 1 (propostas até 16/jul/2026), 20 em jan/2027, 26 em jul/2027. Seleçêo da rodada 1 ainda nêo divulgada.
-- [x] Formato do entregável: página em https://inematds.github.io/letramento-ia-eua/guia/ + este relatório + anexo.
+- [x] Formato do entregável: página em https://linnoff88-dev.github.io/arckhe-/guia/ + este relatório + anexo.
 - [x] Anexo de cursos grátis de universidades e empresas ([ANEXO.md](ANEXO.md)).
 - [ ] Polos NSF: acompanhar a divulgaçêo dos 10 selecionados da rodada 1.
 - [ ] Desafio Presidencial: acompanhar se haverá ediçêo 2026-27.

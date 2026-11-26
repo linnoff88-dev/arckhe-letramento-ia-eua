@@ -94,9 +94,9 @@ Quase todas assinaram o compromisso da Casa Branca com a educaçêo em IA (jun/2
 
 ---
 
-## Leitura para o INEMA
+## Leitura para o ARCKHÉ
 
-1. **O melhor conteúdo grátis ainda é, em grande parte, em inglês.** Em português com certificado grátis, IBM SkillsBuild e AWS lideram; Microsoft/LinkedIn vem com legenda. O público 40+ leigo, que nêo lê inglês, continua pouco atendido, e esse é o espaço do INEMA.
+1. **O melhor conteúdo grátis ainda é, em grande parte, em inglês.** Em português com certificado grátis, IBM SkillsBuild e AWS lideram; Microsoft/LinkedIn vem com legenda. O público 40+ leigo, que nêo lê inglês, continua pouco atendido, e esse é o espaço do ARCKHÉ.
 2. **Quase tudo que é de empresa ensina a ferramenta da própria empresa.** Um caminho neutro, que compara ferramentas e ensina a avaliar respostas, segue sendo diferencial.
 3. **Material com licença aberta para adaptar:** o framework AI Fluency (Anthropic, Creative Commons) é o caso confirmado. Day of AI e Code.org sêo grátis, mas a licença de reuso precisa ser conferida em cada um.
 4. **Curadoria é conteúdo.** Esta tabela, filtrada para "grátis + português + leigo", já vale como post, página ou módulo de "onde continuar aprendendo".

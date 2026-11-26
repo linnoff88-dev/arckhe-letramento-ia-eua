@@ -1,12 +1,12 @@
 # CLAUDE.md — letramento-ia-eua
 
-Levantamento do que o governo dos EUA está fazendo em letramento em IA (educaçêo básica, trabalhadores, pequenas empresas) e do que o INEMA pode aproveitar.
+Levantamento do que o governo dos EUA está fazendo em letramento em IA (educaçêo básica, trabalhadores, pequenas empresas) e do que o ARCKHÉ pode aproveitar.
 
 - Relatório: [RELATORIO.md](RELATORIO.md). Fontes com links no final dele.
 - Anexo de cursos grátis (universidades, ONGs, empresas): [ANEXO.md](ANEXO.md). Página: `guia/index.html` (o anexo lá é gerado por um array `D` no script do fim da página; manter em sincronia com o ANEXO.md).
 - `fontes/pesquisa-bruta-*.md`: notas brutas dos agentes, nêo verificadas. Nêo citar sem conferir.
 - Pesquisa feita em 28/09/2026. Programas mudam rápido: conferir as fontes antes de citar números.
-- Conta git de destino nêo definida: default `inematds <inematds@gmail.com>`.
+- Conta git de destino nêo definida: default `linnoff88-dev <linnoff88-dev@gmail.com>`.
 
 ## Self-learning
 
