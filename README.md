@@ -1,4 +1,4 @@
-﻿# Letramento em IA nos EUA
+ï»¿# Letramento em IA nos EUA
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,14 +6,14 @@
 </div>
 
 
-**ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
+**ê°Å¸â¡Â§ê°Å¸â¡Â· [PortuguêÂªs](README.md) êÂ· ê°Å¸â¡Âºê°Å¸â¡Â¸ [English](README.en.md) êÂ· ê°Å¸â¡Âªê°Å¸â¡Â¸ [EspaêÂ±ol](README.es.md)**
 
-Levantamento (set/2026) do que o governo dos EUA estÃ¡ fazendo em letramento em IA â€” escolas, trabalhadores e pequenas empresas â€” com as novidades de 2026, leitura crÃ­tica, liÃ§Ãµes para o Brasil e um anexo de cursos grÃ¡tis de universidades e empresas de tecnologia.
+Levantamento (set/2026) do que o governo dos EUA estêÂ¡ fazendo em letramento em IA ê¢â¬â escolas, trabalhadores e pequenas empresas ê¢â¬â com as novidades de 2026, leitura crêÂ­tica, liêÂ§êÂµes para o Brasil e um anexo de cursos grêÂ¡tis de universidades e empresas de tecnologia.
 
-- PÃ¡gina: https://inematds.github.io/letramento-ia-eua/guia/
-- RelatÃ³rio em texto: [RELATORIO.md](RELATORIO.md) â€” linha do tempo, frentes, referencial do Depto. do Trabalho, novidades de 2026 (desafio nacional com 20 mil+ alunos, 77 projetos de lei em 27 estados, projetos no Congresso, verbas novas, pesquisas Gallup e Pew), crÃ­tica e fontes.
-- Anexo: [ANEXO.md](ANEXO.md) â€” cursos e materiais de IA de universidades, ONGs e empresas (IBM, AWS, Microsoft, Google, Anthropic, OpenAI, Cisco, Oracle, MIT, Harvard, Code.orgâ€¦), marcando o que Ã© 100% grÃ¡tis, se o certificado Ã© grÃ¡tis e se tem portuguÃªs.
-- Notas brutas da pesquisa (nÃ£o verificadas): [fontes/](fontes/).
+- PêÂ¡gina: https://inematds.github.io/letramento-ia-eua/guia/
+- RelatêÂ³rio em texto: [RELATORIO.md](RELATORIO.md) ê¢â¬â linha do tempo, frentes, referencial do Depto. do Trabalho, novidades de 2026 (desafio nacional com 20 mil+ alunos, 77 projetos de lei em 27 estados, projetos no Congresso, verbas novas, pesquisas Gallup e Pew), crêÂ­tica e fontes.
+- Anexo: [ANEXO.md](ANEXO.md) ê¢â¬â cursos e materiais de IA de universidades, ONGs e empresas (IBM, AWS, Microsoft, Google, Anthropic, OpenAI, Cisco, Oracle, MIT, Harvard, Code.orgê¢â¬Â¦), marcando o que êÂ© 100% grêÂ¡tis, se o certificado êÂ© grêÂ¡tis e se tem portuguêÂªs.
+- Notas brutas da pesquisa (nêÂ£o verificadas): [fontes/](fontes/).
 
 Parte do [INEMA.CLUB](https://inema.club).
 
